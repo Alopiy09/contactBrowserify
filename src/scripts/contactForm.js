@@ -2,8 +2,8 @@ import allContacts from "./ContactCollection"
 
 const contactForm = () => {
     const contactName = document.querySelector("#contactName").value
-    const contactNumber = document.querySelector("#phoneNumber").value 
-    const contactAddress = document.querySelector("#address").value 
+    const contactNumber = document.querySelector("#phoneNumber").value
+    const contactAddress = document.querySelector("#address").value
 
     const contactObject = {
         name: contactName,

@@ -6,7 +6,7 @@ const listOfContacts = () => {
     allContacts.get()
         .then(
             (parsedInfo) => {
-                passedInfo.forEach((targetObject) => {
+                parsedInfo.forEach((targetObject) => {
                     let contactElement = document.querySelector("allContacts")
                     let contactHTML = contact(targetObject)
                     contactElement.innerHTML += contactHTML
