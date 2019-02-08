@@ -6,7 +6,7 @@ const allContacts = {
 },
 
     Post: function (addNewContact) {
-        fetch("http://localhost:8088/contacts", {
+        fetch("http://localhost:8000/contacts", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
