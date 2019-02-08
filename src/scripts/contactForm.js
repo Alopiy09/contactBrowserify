@@ -6,9 +6,9 @@ const contactForm = () => {
     const contactAddress = document.querySelector("#address").value 
 
     const contactObject = {
-        name: name,
-        phone: phone,
-        address: address
+        name: contactName,
+        number: contactNumber,
+        address: contactAddress
     }
     allContacts.Post(contactObject)
 }
